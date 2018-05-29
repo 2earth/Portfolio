@@ -1,0 +1,1395 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #5c5c5c;
+}
+
+a:visited {
+}
+
+a:hover {
+	color: #1a1b1c;
+}
+	
+
+.logo {
+	float: left;
+	background-image: url("./logo.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: left center;
+	height: 100px;
+	width: 131px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+  
+.nav {
+	background-color: #f1f3f4;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.spacer {
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+
+.topspacer {
+	float: left;
+	background-color: #ffffff;
+	width: 100%;
+	height: 100px;
+}
+	
+.content {
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.contentsmall {
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center center;
+}
+
+.contentrow {
+	margin: auto;
+	width: 600px;
+}
+
+/* Projects */
+#GBDP {
+	background-image: url("./Images/projects/GBDP.png");
+}
+#LEGONXT {
+	background-image: url("./Images/projects/LEGO NXT.png");
+}
+#Mechatronics {
+	background-image: url("./Images/projects/Mechatronics.png");
+}
+#Brakes {
+	background-image: url("./Images/projects/Brakes.png");
+}
+#MGB {
+	background-image: url("./Images/projects/MGB.png");
+}
+#Seat {
+	background-image: url("./Images/projects/Innovative seat.png");
+}
+#Blender {
+	background-image: url("./Images/projects/Blender.png");
+}
+#Designability {
+	background-image: url("./Images/projects/Designability.png");
+}
+#Natura {
+	background-image: url("./Images/projects/Natura.png");
+}
+
+/*Projects Before (to prevent flashing*/
+
+#GBDP:before {
+	content: url("./Images/projects/GBDP C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#LEGONXT:before {
+	content: url("./Images/projects/LEGO NXT C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Mechatronics:before {
+	content: url("./Images/projects/Mechatronics C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Brakes:before {
+	content: url("./Images/projects/Brakes C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#MGB:before {
+	content: url("./Images/projects/MGB C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Seat:before {
+	content: url("./Images/projects/Innovative seat C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Blender:before {
+	content: url("./Images/projects/Blender C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Designability:before {
+	content: url("./Images/projects/Designability C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Natura:before {
+	content: url("./Images/projects/Natura C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+/*Projects Hover*/
+
+#GBDP:hover {
+	background-image: url("./Images/projects/GBDP C.png");
+}
+#LEGONXT:hover {
+	background-image: url("./Images/projects/LEGO NXT C.png");
+}
+#Mechatronics:hover {
+	background-image: url("./Images/projects/Mechatronics C.png");
+}
+#Brakes:hover {
+	background-image: url("./Images/projects/Brakes C.png");
+}
+#MGB:hover {
+	background-image: url("./Images/projects/MGB C.png");
+}
+#Seat:hover {
+	background-image: url("./Images/projects/Innovative seat C.png");
+}
+#Blender:hover {
+	background-image: url("./Images/projects/Blender C.png");
+}
+#Designability:hover {
+	background-image: url("./Images/projects/Designability C.png");
+}
+#Natura:hover {
+	background-image: url("./Images/projects/Natura C.png");
+}
+
+/* Skills */
+#Arduino {
+	background-image: url("./Images/skills/Arduino.png");
+}
+
+#Matlab {
+	background-image: url("./Images/skills/matlab.png");
+}
+
+#Inventor {
+	background-image: url("./Images/skills/inventor.png");
+}
+
+#Cpp {
+	background-image: url("./Images/skills/cpp.png");
+}
+
+#Css {
+	background-image: url("./Images/skills/css.png");
+}
+
+#Html {
+	background-image: url("./Images/skills/HTML.png");
+}
+
+#SolidEdge {
+	background-image: url("./Images/skills/solid edge.png");
+}
+
+#Word {
+	background-image: url("./Images/skills/word.png");
+}
+
+#Powerpoint {
+	background-image: url("./Images/skills/powerpoint.png");
+}
+
+#Excel {
+	background-image: url("./Images/skills/excel.png");
+}
+
+/* Skills:before (to prevent flashing)*/
+#Arduino:before {
+	content: url("./Images/skills/Arduino C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Matlab:before {
+	content: url("./Images/skills/matlab C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Inventor:before {
+	content: url("./Images/skills/inventor C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Cpp:before {
+	content: url("./Images/skills/cpp C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Css:before {
+	content: url("./Images/skills/css C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Html:before {
+	content: url("./Images/skills/HTML C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#SolidEdge:before {
+	content: url("./Images/skills/solid edge C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Word:before {
+	content: url("./Images/skills/word C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Powerpoint:before {
+	content: url("./Images/skills/powerpoint C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Excel:before {
+	content: url("./Images/skills/excel C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+/* Skills:hover */
+#Arduino:hover {
+	background-image: url("./Images/skills/Arduino C.png");
+}
+
+#Matlab:hover {
+	background-image: url("./Images/skills/matlab C.png");
+}
+
+#Inventor:hover {
+	background-image: url("./Images/skills/inventor C.png");
+}
+
+#Cpp:hover {
+	background-image: url("./Images/skills/cpp C.png");
+}
+
+#Css:hover {
+	background-image: url("./Images/skills/css C.png");
+}
+
+#Html:hover {
+	background-image: url("./Images/skills/HTML C.png");
+}
+
+#SolidEdge:hover {
+	background-image: url("./Images/skills/solid edge C.png");
+}
+
+#Word:hover {
+	background-image: url("./Images/skills/word C.png");
+}
+
+#Powerpoint:hover {
+	background-image: url("./Images/skills/powerpoint C.png");
+}
+
+#Excel:hover {
+	background-image: url("./Images/skills/excel C.png");
+}
+
+/* Me */
+#pen {
+	background-image: url("./Images/me/Pen.jpg");
+	transform: rotate(-90deg);
+}
+#bath {
+	background-image: url("./Images/me/Bath.png");
+}
+#bmx {
+	background-image: url("./Images/me/bmx.png");
+}
+#imeche {
+	background-image: url("./Images/me/ImechE.png");
+}
+#skate {
+	background-image: url("./Images/me/skate.png");
+}
+#linkedin {
+	background-image: url("./Images/me/linkedIN.png");
+}
+
+/* Me:before (to prevent flashing)*/
+#pen:before {
+	content: url("./Images/me/Pen C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#bath:before {
+	content: url("./Images/me/Bath C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#bmx:before {
+	content: url("./Images/me/bmx C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#imeche:before {
+	content: url("./Images/me/ImechE C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#skate:before {
+	content: url("./Images/me/skate C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#linkedin:before {
+	content: url("./Images/me/linkedIN C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+/* Me:hover */
+
+#pen:hover {
+	background-image: url("./Images/me/Pen C.png");
+	transform: rotate(0deg);
+}
+
+#pen:hover {
+	background-image: url("./Images/me/Pen C.png");
+}
+	
+#bath:hover {
+	background-image: url("./Images/me/Bath C.png");
+}
+#bmx:hover {
+	background-image: url("./Images/me/bmx C.png");
+}
+#imeche:hover {
+	background-image: url("./Images/me/ImechE C.png");
+}
+#skate:hover {
+	background-image: url("./Images/me/skate C.png");
+}
+#linkedin:hover {
+	background-image: url("./Images/me/linkedIN C.png");
+}
+
+.nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav ul li {
+	width: 150px;
+	height: 100px;
+	display: inline-block; /* stack horizontally */
+	border-style: solid;
+	border-width: 0 0px; /* no border */
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	float: left;
+}
+
+.nav ul li a {
+	list-style: none; /* no bullet */
+}
+
+#projects {
+	background-image: url("./Images/Nav bar/Projects.png");
+}
+
+#skills {
+	background-image: url("./Images/Nav bar/Skills.png");
+}
+
+#me {
+	background-image: url("./Images/Nav bar/Me.png");
+}
+
+/* Nav before to prevent flashing */
+
+#projects::before {
+	content: url("./Images/Nav bar/Projects C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#skills::before {
+	content: url("./Images/Nav bar/Skills C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#me::before {
+	content: url("./Images/Nav bar/Me C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#projects:hover {
+	background-image: url("./Images/Nav bar/Projects C.png");
+}
+
+#skills:hover {
+	background-image: url("./Images/Nav bar/Skills C.png");
+}
+
+#me:hover {
+	background-image: url("./Images/Nav bar/Me C.png");
+}
+
+.subheading {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.topnav {
+	background-color: #f1f3f4;
+	height: 40px;
+}
+
+.topnavspacer {
+	background-color: #f1f3f4;
+	height: 40px;
+	width: 700px;
+	float: left;
+}
+
+#dysonrobot {
+	background-image: url("./Images/GBDP/Dyson 360eye.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#vis {
+	background-image: url("./Images/GBDP/Vis.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#challenges {
+	background-image: url("./Images/GBDP/Challenge overview.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#app {
+	background-image: url("./Images/GBDP/app.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#conceptdevelopment {
+	background-image: url("./Images/GBDP/Concept Development.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#explodedkit {
+	background-image: url("./Images/GBDP/Exploded Kit.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#NXTmaze {
+	background-image: url("./Images/LEGONXT/NXTmaze.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#optimisepathplan {
+	background-image: url("./Images/LEGONXT/Optimise Path Plan.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#optimisepath {
+	background-image: url("./Images/LEGONXT/Optimise Path Explanation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#gantry {
+	background-image: url("./Images/Mechatronics/gantry.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#mechatronicssketch {
+	background-image: url("./Images/Mechatronics/mechatronics sketch.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mechatronicsdata {
+	background-image: url("./Images/Mechatronics/mechatronics data.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#finalwiringdiagram {
+	background-image: url("./Images/Mechatronics/Final Wiring Diagram.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mechatronicsfinaldesign {
+	background-image: url("./Images/Mechatronics/mechatronics final design.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#Disassembly {
+	background-image: url("./Images/Brakes/Disassembly.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#Scan {
+	background-image: url("./Images/Brakes/Scan.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#FEA {
+	background-image: url("./Images/Brakes/FEA.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#WSS {
+	background-image: url("./Images/Brakes/WSS.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#finalbrakes {
+	background-image: url("./Images/Brakes/Final Brakes.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#finalwheel {
+	background-image: url("./Images/Brakes/Final Wheel.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#carreveal {
+	background-image: url("./Images/MGB/car reveal.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#timingplan {
+	background-image: url("./Images/MGB/timing plan.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#engineremoval {
+	background-image: url("./Images/MGB/engine removal.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#scanning {
+	background-image: url("./Images/MGB/scanning.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#displayfront {
+	background-image: url("./Images/MGB/display front.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#displayside {
+	background-image: url("./Images/MGB/display side.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#bathphoto {
+	background-image: url("./Images/MGB/bath photo.png");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatbrainstorm {
+	background-image: url("./Images/innovativeseat/seatbrainstorm.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatevaluation {
+	background-image: url("./Images/innovativeseat/seatevaluation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatCAD {
+	background-image: url("./Images/innovativeseat/seat CAD.png");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatconceptside {
+	background-image: url("./Images/innovativeseat/seat concept side.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatconceptangle {
+	background-image: url("./Images/innovativeseat/seat concept angle.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatwelding {
+	background-image: url("./Images/innovativeseat/seat welding.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#seatpresentation {
+	background-image: url("./Images/innovativeseat/seatpresentation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#blender {
+	background-image: url("./Images/reverse engineering/blender.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#display1 {
+	background-image: url("./Images/reverse engineering/display 1.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#display2 {
+	background-image: url("./Images/reverse engineering/display 2.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#healthleaderboard {
+	background-image: url("./Images/reverse engineering/Health Leaderboard.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#recipebook {
+	background-image: url("./Images/reverse engineering/Recipe Book.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#lid {
+	background-image: url("./Images/reverse engineering/lid.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#lock {
+	background-image: url("./Images/reverse engineering/lock.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#drainpipe {
+	background-image: url("./Images/reverse engineering/drainpipe.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#buttons {
+	background-image: url("./Images/reverse engineering/buttons.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#washingmachine {
+	background-image: url("./Images/reverse engineering/washing machine.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#cementmixer {
+	background-image: url("./Images/reverse engineering/cement mixer.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mobilityscooter {
+	background-image: url("./Images/reverse engineering/mobility scooter.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#centrifuge1 {
+	background-image: url("./Images/reverse engineering/centrifuge 1.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#centrifuge2 {
+	background-image: url("./Images/reverse engineering/centrifuge 2.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#USDbrainstorm {
+	background-image: url("./Images/USD/Self Checkout Analysis.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#USDConceptMap {
+	background-image: url("./Images/USD/Concept Summary Map.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#USDevaluation {
+	background-image: url("./Images/USD/Concept evaluation 3.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#USDdetail {
+	background-image: url("./Images/USD/design development.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#USDprototyping {
+	background-image: url("./Images/USD/prototyping.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#USDprototype {
+	background-image: url("./Images/USD/card prototype.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 50px;
+}
+#USDfinalprototype {
+	background-image: url("./Images/USD/final prototype.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#USDstoryboard {
+	background-image: url("./Images/USD/Storyboard.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+
+.topnav ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.topnav ul li {
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #d7dcdf;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.topnav ul li a {
+	list-style: none;
+	margin: 0 0;
+}
+
+.topnav ul li:hover {
+	color: #63727a;
+}
+	
+.development {
+	height: 600px;
+	background-color: #a8bbc6;
+	background-image: url("./development.jpg");
+	background-repeat: no-repeat;
+	background-size: 85%;
+	background-position: left center;
+}
+
+.arena {
+	height: 600px;
+	background-color: #fff;
+	background-image: url("./arena.jpg");
+	background-repeat: no-repeat;
+	background-size: 55%;
+	background-position: right center;
+}
+
+.annotation1, .annotation2 {
+	height: 600px;
+	background-color: rgba(0,0,0,0.4);
+	width: 50%;
+	float: right;
+}
+
+.annotation1 {
+	float: right;
+}
+
+.annotation2 {
+	float: left;
+}
+
+.annotation1:hover, .annotation2:hover {
+	background-color: rgba(0,0,0,0.6);
+	transition: background .5s; /* delay transition */
+}
+
+.title {
+	padding-top: 180px;
+	padding-left: 150px;
+	font-size: 30px;
+	font-weight: bold;
+	width: 500px;
+	color: #d7dcdf;
+}
+.text {
+	padding-left: 150px;
+	color: #d7dcdf;
+	font-size: 20px;
+	padding-top: 20px;
+	width: 450px;
+}
+
+.text a {
+	color: #d7dcdf;
+	text-decoration: none;
+}
+
+.text a:hover {
+	color: #63727a;
+	transition: color .5s; /* delay transition */
+}
+
+.content2 {
+	background-color: #f1f3f4;
+	height: 400px;
+}
+
+.content2bounding {
+	padding: 50px;
+	height: 300px;
+}
+
+.arduino {
+	position: absolute;
+	left: 20%;
+	height: 200px;
+	width: 200px;
+	background-color: #fff;
+	background-image: url("./arduino.jpg");
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block;
+}
+
+.arduinotxt {
+	position: absolute;
+	left: 20%;
+	height: 100px;
+	width: 200px;
+	background-color: rgba(0,0,0,0.4);
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color .5s;
+}
+
+.arduinocaption {
+	position: absolute;
+	left: 20%;
+	height: 100px;
+	width: 200px;
+	color: #000;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 0px;
+	font-size: 18px;
+	transition: background-color .5s;
+}
+
+.arduinotxt:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.hardware {
+	margin: auto;
+	height: 200px;
+	width: 200px;
+	background-color: #000;
+	background-image: url("./hardware.jpg");
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block
+}
+
+.hardwarecaption {
+	margin: auto;
+	height: 100px;
+	width: 200px;
+	color: #000;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 0px;
+	font-size: 18px;
+	transition: background-color .5s;
+}
+
+.hardwaretxt {
+	margin: auto;
+	height: 100px;
+	width: 200px;
+	background-color: rgba(0,0,0,0.4);
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	margin-top: -200px;
+	display: block;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color .5s;
+}
+
+.hardwaretxt:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.apptxt {
+	position: absolute;
+	right: 20%;
+	height: 100px;
+	width: 200px;
+	background-color: rgba(0,0,0,0.4);
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block;
+	margin-top: -200px;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color .5s;
+}
+
+.appcaption {
+	position: absolute;
+	right: 20%;
+	height: 100px;
+	width: 200px;
+	color: #000;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-position: center center;
+	display: block;
+	margin-top: -100px;
+	text-align: center;
+	padding-top: 0px;
+	font-size: 18px;
+	transition: background-color .5s;
+}
+
+.apptxt:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.bodytitle {
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+}	
+
+.bodytext {
+	color: #000;
+	font-size: 18px;
+	font-weight: regular;
+	text-decoration: none;
+}
+
+
+	
