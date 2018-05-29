@@ -464,33 +464,33 @@ a:hover {
 
 /* Nav before to prevent flashing */
 
-#Projects::before {
+#projects::before {
 	content: url("./Images/Nav bar/Projects C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#Skills::before {
+#skills::before {
 	content: url("./Images/Nav bar/Skills C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#Me::before {
+#me::before {
 	content: url("./Images/Nav bar/Me C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#Projects:hover {
+#projects:hover {
 	background-image: url("./Images/Nav bar/Projects C.png");
 }
 
-#Skills:hover {
+#skills:hover {
 	background-image: url("./Images/Nav bar/Skills C.png");
 }
 
-#Me:hover {
+#me:hover {
 	background-image: url("./Images/Nav bar/Me C.png");
 }
 
