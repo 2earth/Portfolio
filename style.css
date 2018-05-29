@@ -450,15 +450,15 @@ a:hover {
 	list-style: none; /* no bullet */
 }
 
-#Projects {
+#projects {
 	background-image: url("./Images/Nav bar/Projects.png");
 }
 
-#Skills {
+#skills {
 	background-image: url("./Images/Nav bar/Skills.png");
 }
 
-#Me {
+#me {
 	background-image: url("./Images/Nav bar/Me.png");
 }
 
