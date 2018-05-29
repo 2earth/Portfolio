@@ -208,7 +208,7 @@ a:hover {
 }
 
 #Css {
-	background-image: url("./Images/Skills/css.png");
+	background-image: url("./Images/Skills/CSS.png");
 }
 
 #Html {
@@ -261,7 +261,7 @@ a:hover {
 }
 
 #Css:before {
-	content: url("./Images/Skills/css C.png");
+	content: url("./Images/Skills/CSS C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -320,7 +320,7 @@ a:hover {
 }
 
 #Css:hover {
-	background-image: url("./Images/Skills/css C.png");
+	background-image: url("./Images/Skills/CSS C.png");
 }
 
 #Html:hover {
@@ -355,7 +355,7 @@ a:hover {
 	background-image: url("./Images/Me/bmx.png");
 }
 #iMeche {
-	background-image: url("./Images/Me/IMechE.png");
+	background-image: url("./Images/Me/ImechE.png");
 }
 #skate {
 	background-image: url("./Images/Me/skate.png");
@@ -384,7 +384,7 @@ a:hover {
 	visibility: hidden;
 }
 #iMeche:before {
-	content: url("./Images/Me/IMechE C.png");
+	content: url("./Images/Me/ImechE C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -419,7 +419,7 @@ a:hover {
 	background-image: url("./Images/Me/bmx C.png");
 }
 #iMeche:hover {
-	background-image: url("./Images/Me/IMechE C.png");
+	background-image: url("./Images/Me/ImechE C.png");
 }
 #skate:hover {
 	background-image: url("./Images/Me/skate C.png");
