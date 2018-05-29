@@ -19,7 +19,7 @@ a:hover {
 
 .logo {
 	float: left;
-	background-image: url("./logo.png");
+	background-image: url("./Logo.png");
 	background-repeat: no-repeat;
 	background-size: 30%;
 	background-position: left center;
@@ -76,85 +76,85 @@ a:hover {
 
 /* Projects */
 #GBDP {
-	background-image: url("./Images/projects/GBDP.png");
+	background-image: url("./Images/Projects/GBDP.png");
 }
 #LEGONXT {
-	background-image: url("./Images/projects/LEGO NXT.png");
+	background-image: url("./Images/Projects/LEGO NXT.png");
 }
 #Mechatronics {
-	background-image: url("./Images/projects/Mechatronics.png");
+	background-image: url("./Images/Projects/Mechatronics.png");
 }
 #Brakes {
-	background-image: url("./Images/projects/Brakes.png");
+	background-image: url("./Images/Projects/Brakes.png");
 }
 #MGB {
-	background-image: url("./Images/projects/MGB.png");
+	background-image: url("./Images/Projects/MGB.png");
 }
 #Seat {
-	background-image: url("./Images/projects/Innovative seat.png");
+	background-image: url("./Images/Projects/Innovative seat.png");
 }
 #Blender {
-	background-image: url("./Images/projects/Blender.png");
+	background-image: url("./Images/Projects/Blender.png");
 }
 #Designability {
-	background-image: url("./Images/projects/Designability.png");
+	background-image: url("./Images/Projects/Designability.png");
 }
 #Natura {
-	background-image: url("./Images/projects/Natura.png");
+	background-image: url("./Images/Projects/Natura.png");
 }
 
 /*Projects Before (to prevent flashing*/
 
 #GBDP:before {
-	content: url("./Images/projects/GBDP C.png");
+	content: url("./Images/Projects/GBDP C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #LEGONXT:before {
-	content: url("./Images/projects/LEGO NXT C.png");
+	content: url("./Images/Projects/LEGO NXT C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #Mechatronics:before {
-	content: url("./Images/projects/Mechatronics C.png");
+	content: url("./Images/Projects/Mechatronics C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #Brakes:before {
-	content: url("./Images/projects/Brakes C.png");
+	content: url("./Images/Projects/Brakes C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #MGB:before {
-	content: url("./Images/projects/MGB C.png");
+	content: url("./Images/Projects/MGB C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #Seat:before {
-	content: url("./Images/projects/Innovative seat C.png");
+	content: url("./Images/Projects/Innovative seat C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #Blender:before {
-	content: url("./Images/projects/Blender C.png");
+	content: url("./Images/Projects/Blender C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #Designability:before {
-	content: url("./Images/projects/Designability C.png");
+	content: url("./Images/Projects/Designability C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #Natura:before {
-	content: url("./Images/projects/Natura C.png");
+	content: url("./Images/Projects/Natura C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -163,140 +163,140 @@ a:hover {
 /*Projects Hover*/
 
 #GBDP:hover {
-	background-image: url("./Images/projects/GBDP C.png");
+	background-image: url("./Images/Projects/GBDP C.png");
 }
 #LEGONXT:hover {
-	background-image: url("./Images/projects/LEGO NXT C.png");
+	background-image: url("./Images/Projects/LEGO NXT C.png");
 }
 #Mechatronics:hover {
-	background-image: url("./Images/projects/Mechatronics C.png");
+	background-image: url("./Images/Projects/Mechatronics C.png");
 }
 #Brakes:hover {
-	background-image: url("./Images/projects/Brakes C.png");
+	background-image: url("./Images/Projects/Brakes C.png");
 }
 #MGB:hover {
-	background-image: url("./Images/projects/MGB C.png");
+	background-image: url("./Images/Projects/MGB C.png");
 }
 #Seat:hover {
-	background-image: url("./Images/projects/Innovative seat C.png");
+	background-image: url("./Images/Projects/Innovative seat C.png");
 }
 #Blender:hover {
-	background-image: url("./Images/projects/Blender C.png");
+	background-image: url("./Images/Projects/Blender C.png");
 }
 #Designability:hover {
-	background-image: url("./Images/projects/Designability C.png");
+	background-image: url("./Images/Projects/Designability C.png");
 }
 #Natura:hover {
-	background-image: url("./Images/projects/Natura C.png");
+	background-image: url("./Images/Projects/Natura C.png");
 }
 
 /* Skills */
 #Arduino {
-	background-image: url("./Images/skills/Arduino.png");
+	background-image: url("./Images/Skills/Arduino.png");
 }
 
 #Matlab {
-	background-image: url("./Images/skills/matlab.png");
+	background-image: url("./Images/Skills/matlab.png");
 }
 
 #Inventor {
-	background-image: url("./Images/skills/inventor.png");
+	background-image: url("./Images/Skills/inventor.png");
 }
 
 #Cpp {
-	background-image: url("./Images/skills/cpp.png");
+	background-image: url("./Images/Skills/cpp.png");
 }
 
 #Css {
-	background-image: url("./Images/skills/css.png");
+	background-image: url("./Images/Skills/css.png");
 }
 
 #Html {
-	background-image: url("./Images/skills/HTML.png");
+	background-image: url("./Images/Skills/HTML.png");
 }
 
 #SolidEdge {
-	background-image: url("./Images/skills/solid edge.png");
+	background-image: url("./Images/Skills/solid edge.png");
 }
 
 #Word {
-	background-image: url("./Images/skills/word.png");
+	background-image: url("./Images/Skills/word.png");
 }
 
 #Powerpoint {
-	background-image: url("./Images/skills/powerpoint.png");
+	background-image: url("./Images/Skills/powerpoint.png");
 }
 
 #Excel {
-	background-image: url("./Images/skills/excel.png");
+	background-image: url("./Images/Skills/excel.png");
 }
 
 /* Skills:before (to prevent flashing)*/
 #Arduino:before {
-	content: url("./Images/skills/Arduino C.png");
+	content: url("./Images/Skills/Arduino C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Matlab:before {
-	content: url("./Images/skills/matlab C.png");
+	content: url("./Images/Skills/matlab C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Inventor:before {
-	content: url("./Images/skills/inventor C.png");
+	content: url("./Images/Skills/inventor C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Cpp:before {
-	content: url("./Images/skills/cpp C.png");
+	content: url("./Images/Skills/cpp C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Css:before {
-	content: url("./Images/skills/css C.png");
+	content: url("./Images/Skills/css C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Html:before {
-	content: url("./Images/skills/HTML C.png");
+	content: url("./Images/Skills/HTML C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #SolidEdge:before {
-	content: url("./Images/skills/solid edge C.png");
+	content: url("./Images/Skills/solid edge C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Word:before {
-	content: url("./Images/skills/word C.png");
+	content: url("./Images/Skills/word C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Powerpoint:before {
-	content: url("./Images/skills/powerpoint C.png");
+	content: url("./Images/Skills/powerpoint C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 
 #Excel:before {
-	content: url("./Images/skills/excel C.png");
+	content: url("./Images/Skills/excel C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -304,99 +304,99 @@ a:hover {
 
 /* Skills:hover */
 #Arduino:hover {
-	background-image: url("./Images/skills/Arduino C.png");
+	background-image: url("./Images/Skills/Arduino C.png");
 }
 
 #Matlab:hover {
-	background-image: url("./Images/skills/matlab C.png");
+	background-image: url("./Images/Skills/matlab C.png");
 }
 
 #Inventor:hover {
-	background-image: url("./Images/skills/inventor C.png");
+	background-image: url("./Images/Skills/inventor C.png");
 }
 
 #Cpp:hover {
-	background-image: url("./Images/skills/cpp C.png");
+	background-image: url("./Images/Skills/cpp C.png");
 }
 
 #Css:hover {
-	background-image: url("./Images/skills/css C.png");
+	background-image: url("./Images/Skills/css C.png");
 }
 
 #Html:hover {
-	background-image: url("./Images/skills/HTML C.png");
+	background-image: url("./Images/Skills/HTML C.png");
 }
 
 #SolidEdge:hover {
-	background-image: url("./Images/skills/solid edge C.png");
+	background-image: url("./Images/Skills/solid edge C.png");
 }
 
 #Word:hover {
-	background-image: url("./Images/skills/word C.png");
+	background-image: url("./Images/Skills/word C.png");
 }
 
 #Powerpoint:hover {
-	background-image: url("./Images/skills/powerpoint C.png");
+	background-image: url("./Images/Skills/powerpoint C.png");
 }
 
 #Excel:hover {
-	background-image: url("./Images/skills/excel C.png");
+	background-image: url("./Images/Skills/excel C.png");
 }
 
 /* Me */
 #pen {
-	background-image: url("./Images/me/Pen.jpg");
+	background-image: url("./Images/Me/Pen.jpg");
 	transform: rotate(-90deg);
 }
 #bath {
-	background-image: url("./Images/me/Bath.png");
+	background-image: url("./Images/Me/Bath.png");
 }
 #bmx {
-	background-image: url("./Images/me/bmx.png");
+	background-image: url("./Images/Me/bmx.png");
 }
-#imeche {
-	background-image: url("./Images/me/ImechE.png");
+#iMeche {
+	background-image: url("./Images/Me/IMechE.png");
 }
 #skate {
-	background-image: url("./Images/me/skate.png");
+	background-image: url("./Images/Me/skate.png");
 }
 #linkedin {
-	background-image: url("./Images/me/linkedIN.png");
+	background-image: url("./Images/Me/linkedIN.png");
 }
 
 /* Me:before (to prevent flashing)*/
 #pen:before {
-	content: url("./Images/me/Pen C.png");
+	content: url("./Images/Me/Pen C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #bath:before {
-	content: url("./Images/me/Bath C.png");
+	content: url("./Images/Me/Bath C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #bmx:before {
-	content: url("./Images/me/bmx C.png");
+	content: url("./Images/Me/bmx C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#imeche:before {
-	content: url("./Images/me/ImechE C.png");
+#iMeche:before {
+	content: url("./Images/Me/IMechE C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #skate:before {
-	content: url("./Images/me/skate C.png");
+	content: url("./Images/Me/skate C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
 #linkedin:before {
-	content: url("./Images/me/linkedIN C.png");
+	content: url("./Images/Me/linkedIN C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -404,28 +404,28 @@ a:hover {
 /* Me:hover */
 
 #pen:hover {
-	background-image: url("./Images/me/Pen C.png");
+	background-image: url("./Images/Me/Pen C.png");
 	transform: rotate(0deg);
 }
 
 #pen:hover {
-	background-image: url("./Images/me/Pen C.png");
+	background-image: url("./Images/Me/Pen C.png");
 }
 	
 #bath:hover {
-	background-image: url("./Images/me/Bath C.png");
+	background-image: url("./Images/Me/Bath C.png");
 }
 #bmx:hover {
-	background-image: url("./Images/me/bmx C.png");
+	background-image: url("./Images/Me/bmx C.png");
 }
-#imeche:hover {
-	background-image: url("./Images/me/ImechE C.png");
+#iMeche:hover {
+	background-image: url("./Images/Me/IMechE C.png");
 }
 #skate:hover {
-	background-image: url("./Images/me/skate C.png");
+	background-image: url("./Images/Me/skate C.png");
 }
 #linkedin:hover {
-	background-image: url("./Images/me/linkedIN C.png");
+	background-image: url("./Images/Me/linkedIN C.png");
 }
 
 .nav ul {
@@ -450,47 +450,47 @@ a:hover {
 	list-style: none; /* no bullet */
 }
 
-#projects {
+#Projects {
 	background-image: url("./Images/Nav bar/Projects.png");
 }
 
-#skills {
+#Skills {
 	background-image: url("./Images/Nav bar/Skills.png");
 }
 
-#me {
+#Me {
 	background-image: url("./Images/Nav bar/Me.png");
 }
 
 /* Nav before to prevent flashing */
 
-#projects::before {
+#Projects::before {
 	content: url("./Images/Nav bar/Projects C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#skills::before {
+#Skills::before {
 	content: url("./Images/Nav bar/Skills C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#me::before {
+#Me::before {
 	content: url("./Images/Nav bar/Me C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
 }
-#projects:hover {
+#Projects:hover {
 	background-image: url("./Images/Nav bar/Projects C.png");
 }
 
-#skills:hover {
+#Skills:hover {
 	background-image: url("./Images/Nav bar/Skills C.png");
 }
 
-#me:hover {
+#Me:hover {
 	background-image: url("./Images/Nav bar/Me C.png");
 }
 
@@ -556,8 +556,8 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#conceptdevelopment {
-	background-image: url("./Images/GBDP/Concept Development.png");
+#conceptdevelopMent {
+	background-image: url("./Images/GBDP/Concept DevelopMent.png");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -618,8 +618,8 @@ a:hover {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-#mechatronicssketch {
-	background-image: url("./Images/Mechatronics/mechatronics sketch.png");
+#Mechatronicssketch {
+	background-image: url("./Images/Mechatronics/Mechatronics sketch.png");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -628,8 +628,8 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#mechatronicsdata {
-	background-image: url("./Images/Mechatronics/mechatronics data.png");
+#Mechatronicsdata {
+	background-image: url("./Images/Mechatronics/Mechatronics data.png");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -648,8 +648,8 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#mechatronicsfinaldesign {
-	background-image: url("./Images/Mechatronics/mechatronics final design.jpg");
+#Mechatronicsfinaldesign {
+	background-image: url("./Images/Mechatronics/Mechatronics final design.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -1006,8 +1006,8 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#cementmixer {
-	background-image: url("./Images/reverse engineering/cement mixer.jpg");
+#ceMentmixer {
+	background-image: url("./Images/reverse engineering/ceMent mixer.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1080,7 +1080,7 @@ a:hover {
 	background-position: center center;
 }
 #USDdetail {
-	background-image: url("./Images/USD/design development.jpg");
+	background-image: url("./Images/USD/design developMent.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1162,10 +1162,10 @@ a:hover {
 	color: #63727a;
 }
 	
-.development {
+.developMent {
 	height: 600px;
 	background-color: #a8bbc6;
-	background-image: url("./development.jpg");
+	background-image: url("./developMent.jpg");
 	background-repeat: no-repeat;
 	background-size: 85%;
 	background-position: left center;
