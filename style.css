@@ -28,6 +28,18 @@ a:hover {
 	padding-left: 200px;
 	padding-right: 200px;
 }
+
+.logo:before {
+	content: url("./Logo C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+.logo:hover {
+	background-image: url("./Logo C.png");
+}
+
   
 .nav {
 	background-color: #f1f3f4;
@@ -193,6 +205,7 @@ a:hover {
 /* Skills */
 #Arduino {
 	background-image: url("./Images/Skills/Arduino.png");
+	background-size: 80%;
 }
 
 #Matlab {
@@ -201,6 +214,10 @@ a:hover {
 
 #Inventor {
 	background-image: url("./Images/Skills/inventor.png");
+}
+
+#Catia {
+	background-image: url("./Images/Skills/catia.png");
 }
 
 #Cpp {
@@ -231,6 +248,46 @@ a:hover {
 	background-image: url("./Images/Skills/excel.png");
 }
 
+#CADrow {
+	background-image: url("./Images/Skills/CADrow.png");
+	height: 200px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#Coderow {
+	background-image: url("./Images/Skills/Coderow.png");
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#Officerow {
+	background-image: url("./Images/Skills/Officerow.png");
+	height: 200px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#Electronicsrow {
+	background-image: url("./Images/Skills/Electronicsrow.png");
+	height: 200px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#Mediarow {
+	background-image: url("./Images/Skills/Mediarow.png");
+	height: 200px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 /* Skills:before (to prevent flashing)*/
 #Arduino:before {
 	content: url("./Images/Skills/Arduino C.png");
@@ -248,6 +305,13 @@ a:hover {
 
 #Inventor:before {
 	content: url("./Images/Skills/inventor C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Catia:before {
+	content: url("./Images/Skills/catia C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -302,6 +366,41 @@ a:hover {
 	visibility: hidden;
 }
 
+#CADrow:before {
+	content: url("./Images/Skills/CADrow C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Coderow:before {
+	content: url("./Images/Skills/Coderow C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Officerow:before {
+	content: url("./Images/Skills/Officerow C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Electronicsrow:before {
+	content: url("./Images/Skills/Electronicsrow C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Mediarow:before {
+	content: url("./Images/Skills/Mediarow C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
 /* Skills:hover */
 #Arduino:hover {
 	background-image: url("./Images/Skills/Arduino C.png");
@@ -313,6 +412,10 @@ a:hover {
 
 #Inventor:hover {
 	background-image: url("./Images/Skills/inventor C.png");
+}
+
+#Catia:hover {
+	background-image: url("./Images/Skills/catia C.png");
 }
 
 #Cpp:hover {
@@ -341,6 +444,26 @@ a:hover {
 
 #Excel:hover {
 	background-image: url("./Images/Skills/excel C.png");
+}
+
+#CADrow:hover {
+	background-image: url("./Images/Skills/CADrow C.png");
+}
+
+#Coderow:hover {
+	background-image: url("./Images/Skills/Coderow C.png");
+}
+
+#Officerow:hover {
+	background-image: url("./Images/Skills/Officerow C.png");
+}
+
+#Electronicsrow:hover {
+	background-image: url("./Images/Skills/Electronicsrow C.png");
+}
+
+#Mediarow:hover {
+	background-image: url("./Images/Skills/Mediarow C.png");
 }
 
 /* Me */
@@ -618,8 +741,8 @@ a:hover {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-#Mechatronicssketch {
-	background-image: url("./Images/Mechatronics/Mechatronics sketch.png");
+#mechatronicssketch {
+	background-image: url("./Images/Mechatronics/mechatronics sketch.png");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -628,8 +751,8 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#Mechatronicsdata {
-	background-image: url("./Images/Mechatronics/Mechatronics data.png");
+#mechatronicsdata {
+	background-image: url("./Images/Mechatronics/mechatronics data.png");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -648,7 +771,7 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#Mechatronicsfinaldesign {
+#mechatronicsfinaldesign {
 	background-image: url("./Images/Mechatronics/Mechatronics final design.jpg");
 	float: left;
 	background-color: #ffffff;
@@ -1047,6 +1170,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
+	margin-bottom: 50px;
 }
 
 #USDbrainstorm {
@@ -1133,6 +1257,273 @@ a:hover {
 	background-position: center center;
 }
 
+#GBDP2robots {
+	background-image: url("./Images/CAD/2 robots POSTER.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 130%;
+	background-position: center center;
+}
+
+#grippersassembly {
+	background-image: url("./Images/CAD/grippersassembly.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center center;
+}
+
+#launcherexploded {
+	background-image: url("./Images/CAD/launcherexploded.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#robotarmexploded {
+	background-image: url("./Images/CAD/robotarmexploded.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: center center;
+}
+
+#snowmobileassembly {
+	background-image: url("./Images/CAD/snowmobileassembly.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#profilephoto {
+	background-image: url("./Images/index/me.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#sketchslideshow {
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#sketchDisplay {
+	float: left;
+	background-color: #ffffff;
+	height: 564px;
+	width: 564px;
+	object-fit: contain;
+}
+
+#tt1 {
+	background-image: url("./Images/CAD/tt1.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#tt2 {
+	background-image: url("./Images/CAD/tt2.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#jf {
+	background-image: url("./Images/CAD/jf.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#hpwm {
+	background-image: url("./Images/CAD/hpwm.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#apostbaffle {
+	background-image: url("./Images/CAD/a post baffle.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#UCDcad {
+	background-image: url("./Images/CAD/UCDcad.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#mechatronicsflow {
+	background-image: url("./Images/Code/mechatronicsflow.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#halldata {
+	background-image: url("./Images/Code/halldata.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#locatedmagnets {
+	background-image: url("./Images/Code/locatedmagnets.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#tileprocess {
+	background-image: url("./Images/Code/tileprocess.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#tileGUI {
+	background-image: url("./Images/Code/tileGUI.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#parceltrajectory {
+	background-image: url("./Images/Code/parceltrajectory.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#springdamperfv {
+	background-image: url("./Images/Code/springdamperfv.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#jdfweb {
+	background-image: url("./Images/Code/jdfweb.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#uniphoto {
+	background-image: url("./Images/uni/IDE photo.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 450px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+}
+#projectilepython {
+	background-image: url("./Images/Code/projectilepython.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.slideshowbox {
+	height: 20px;
+	width: 4px;
+	float: left;
+	background-color: #d7dcdf;
+}
+
+.slideshowbox:hover {
+	background-color: #adb3b6;
+}
+
+#month {
+	writing-mode: vertical-rl;
+	margin-left: 354px;
+}
 
 .topnav ul {
 	list-style-type: none;
