@@ -15,18 +15,15 @@ a:visited {
 a:hover {
 	color: #1a1b1c;
 }
-	
 
 .logo {
 	float: left;
 	background-image: url("./Logo.png");
 	background-repeat: no-repeat;
-	background-size: 30%;
+	background-size: contain;
 	background-position: left center;
 	height: 100px;
 	width: 131px;
-	padding-left: 200px;
-	padding-right: 200px;
 }
 
 .logo:before {
@@ -51,7 +48,7 @@ a:hover {
 .spacer {
 	float: left;
 	height: 100px;
-	width: 200px;
+	width: 600px;
 }
 
 .topspacer {
@@ -772,7 +769,7 @@ a:hover {
 	background-position: center center;
 }
 #mechatronicsfinaldesign {
-	background-image: url("./Images/Mechatronics/Mechatronics final design.jpg");
+	background-image: url("./Images/Mechatronics/mechatronics final design.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -832,7 +829,7 @@ a:hover {
 	margin-bottom: 50px;
 }
 #finalbrakes {
-	background-image: url("./Images/Brakes/Final Brakes.JPG");
+	background-image: url("./Images/Brakes/Final Brakes.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -1375,7 +1372,7 @@ a:hover {
 }
 
 #hpwm {
-	background-image: url("./Images/CAD/hpwm.png");
+	background-image: url("./Images/CAD/hpwm.PNG");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
