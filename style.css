@@ -868,7 +868,7 @@ a:hover {
 	margin-bottom: 50px;
 }
 #timingplan {
-	background-image: url("./Images/MGB/timing plan.PNG");
+	background-image: url("./Images/MGB/timing plan.png");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -1356,7 +1356,7 @@ a:hover {
 	background-image: url("./Images/CAD/tt2.jpg");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 400px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1508,7 +1508,167 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-
+#gitimage {
+	background-image: url("./Images/Code/git.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#NXTforwards {
+	background-image: url("./Images/Code/Forwards Code Explanation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#ProcessDiagram {
+	background-image: url("./Images/PDD/Process Diagram.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#Pugh {
+	background-image: url("./Images/PDD/Pugh.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#craftkit {
+	background-image: url("./Images/PDD/craftkit.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#natura {
+	background-image: url("./Images/PDD/natura.png");
+	float: left;
+	background-color: #ffffff;
+	height: 550px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#fantasynatura {
+	background-image: url("./Images/PDD/fantasynatura.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#immersivefantasy {
+	background-image: url("./Images/PDD/immersivefantasy.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#fantasykit {
+	background-image: url("./Images/PDD/fantasykit.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#bmxanim {
+	background-image: url("./Images/bmx/anim.gif");
+	float: left;
+	background-color: #ffffff;
+	height: 350px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+}
+#excel {
+	background-image: url("./Images/office/excel.gif");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#powerpoint {
+	background-image: url("./Images/office/ppt.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#word {
+	background-image: url("./Images/office/word.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#brakespose {
+	background-image: url("./Images/MGB/brakespose.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#teamphoto {
+	background-image: url("./Images/MGB/team photo.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#hardwareposter {
+	background-image: url("./Images/media/Hardware Poster.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
 .slideshowbox {
 	height: 20px;
 	width: 4px;
