@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8"> 
+</head>
+
+<title>TR | Battery Testing</title>
+<body>
+
+  <!-- Nav Bar -->
+  <div class="nav">
+	<div class="contentrow">
+		<!-- Logo -->
+		<a href="./index.html">
+			<div class="logo"></div>
+		</a>
+		<ul class="list">
+			<a href="./Projects.html"><li id="projects"></li></a>
+		</ul>
+	</div>
+  </div>
+  <div class="topspacer"></div>
+  <!-- GBDP -->
+  <div class="contentrow">
+	  <div class="subheading">Battery Testing</div>
+	  <div class="body"><i>Team of 2 | 3 months | 2018</i></div>
+	  	  <div class="contenticon" id="Code"><div class="contenticontext">Programming</div></div>
+		<div class="contenticon" id="Arduino"><div class="contenticontext">Electronics</div></div>
+		<div class="contenticon" id="Analysis"><div class="contenticontext">Analysis</div></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticontextspacer"></div>
+	  <div class="body">I worked with an electrical engineer to model and test the charge and discharge behaviour of car batteries, to investigate the feasibility of a novel multi-battery energy storage system.</div>
+	  <div id="circuitillustration"></div>
+	  <div class="body">I helped design, build and test a system that would allow used and inexpensive car batteries to be tested through multiple charge-discharge cycles, characterising their behaviour. This data would provide primary information to inform the early stages of design.</div>
+	  <div id="batterytestinggui"></div>
+	  <div class="body">First, existing information around lead-acid charge-discharge behaviour was researched. Next, a circuit was designed with a constant-current load, battery charger, voltage and current sensors and a fuse. The system was prototyped inexpensively and quickly to start gathering useful data and insight as quickly as possible. Arduino and MATLAB was created to control, display and capture the operation. </div>
+	  <div id="batterytest"></div>
+	  <div class="body">The system allowed autonomous testing of battery performance under a range of discharge rates, allowing investigation of energy loss, practical discharge rates and minimum charge levels.</div>
+	  <p></p>
+	  <div class="body">The program used the Arduino microcontroller to toggle relays to progress safely between charge, wait and discharge phases of the test, all while logging the voltage and current at determined intervals. Phase transitions were triggered by user-specified voltage thresholds, while unexpected or unsafe behaviour would cause the test to be suspended.</div>
+	  <p></p>
+	  <div class="body">In parallel a MATLAB simulation of the storage system was developed to an early stage, modelling battery discharge at a timestep subject to particular conditions. Future work would have united the experimental data and the simulation to provide a heuristic solution to modelling the future discharge of an unknown battery under given conditions. Additionally, transferring circuitry to a PCB would have improved robustness and safety.</div>
+	</div>
+
+  
+
+</body>
+</html>

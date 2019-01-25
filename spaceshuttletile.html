@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8"> 
+</head>
+<title>TR | Heat Transfer Modelling</title>
+<body>
+
+  <!-- Nav Bar -->
+  <div class="nav">
+	<div class="contentrow">
+		<!-- Logo -->
+		<a href="./index.html">
+			<div class="logo"></div>
+		</a>
+		<ul class="list">
+			<a href="./Projects.html"><li id="projects"></li></a>
+		</ul>
+	</div>
+  </div>
+  <div class="topspacer"></div>
+  <!-- GBDP -->
+  <div class="contentrow">
+	  <div class="subheading">Space Shuttle Tile Heat Transfer Modelling</div>
+	  <div class="body"><i>Individual | 5 weeks | 2015</i></div>
+		<div class="contenticon" id="Code"><div class="contenticontext">Programming</div></div>
+		<div class="contenticon" id="Analysis"><div class="contenticontext">Analysis</div></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticontextspacer"></div>
+	  <div class="body">In my second year I worked on an individual project to model the heat transfer through an insulating tile on a space shuttle during re-entry. This required the integration of heat transfer and modelling techniques theory with practical coding skills.</div>
+	  <p></p>
+	  <div class="body">The heat transfer problem required the solution of a non-linear differential equation at each finite element, at each time step. A variety of algorithms were used, such as RK4, Euler and Crank-Nicolson, to investigate the stability and accuracy of each. The program's different functions and processes were separated into a series of functions.<div id="tileprocess"></div>
+	  <div class="body">The final code modelled the heat transfer across time and through the tile's thickness, allowing the user to alter parameters within a graphical user interface (GUI) to observe effects. It also allowed the user to set a maximum inner surface temperature and use the shooting method to identify the required thickness of tile.</div> 
+	  <div id="tileGUI"></div>
+	  <div class="body">A number of features were included in the program to aid computational efficiency, the most successful being an adaptive timestep. If selected, the program would use an algorithm to determine the timestep based on the change in temperature between the preceding two timesteps. This would allow finer detail to be captured during highly transient periods (such as the start of the model) and courser detail when not required. This reduced computation time and stability.</div>
+	</div>
+
+  
+
+</body>
+</html>

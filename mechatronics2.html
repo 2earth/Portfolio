@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8"> 
+</head>
+<title>TR | Mechatronics 2</title>
+<body>
+
+  <!-- Nav Bar -->
+  <div class="nav">
+	<div class="contentrow">
+		<!-- Logo -->
+		<a href="./index.html">
+			<div class="logo"></div>
+		</a>
+		<ul class="list">
+			<a href="./Projects.html"><li id="projects"></li></a>
+		</ul>
+	</div>
+  </div>
+  <div class="topspacer"></div>
+  <!-- GBDP -->
+  <div class="contentrow">
+		<div class="subheading">Mechatronic Design Project 2</div>
+		<div class="body"><i>Team of 4 | 4 weeks | 2018</i></div>
+		<div class="contenticon" id="Code" title="Code"><div class="contenticontext">Programming</div></div>
+		<div class="contenticon" id="Arduino" title="Electronics"><div class="contenticontext">Electronics</div></div>
+		<div class="contenticon" id="Presenting" title="Presenting"><div class="contenticontext">Presenting</div></div>
+		<div class="contenticon" id="Prototyping" title="Prototyping"><div class="contenticontext">Prototyping</div></div>
+		<div class="contenticon" id="pen" title="Sketching"><div class="contenticontext">Sketching</div></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticontextspacer"></div>
+		<p></p>
+	  </div>
+	<div class="contentrow">
+	  <p></p>
+	  <div class="body">Working in a team of 4 a challenge was set to design and build a robot with both remote manual and autonomous control modes. To add complexity to the project the robot would be sealed within a transparent plastic ball, all electronics would be mounted on a bespoke PCB and behaviour would be augmented using machine vision.</div>
+	  <div id="sandstorm"></div>
+	  <div class="body">Initial robot architecture sketches set up the positioning of main components such as the battery, motors, wheels, PCB and camera. An opportunity was identified to use a direct drive with low centre of mass to improve the performance of the robot.</div>
+	  <div id="mechatronics2brainstorm"></div>
+	  <div id="mechatronics2initialsketch"></div>
+	  <div class="body">The robot's design was developed to embodiment through a cycle of prototypes and iterative improvement.</div>
+	  <p></p>
+	  <div id="mech2rend1"></div>
+	  <div id="mech2rend2"></div>
+	  <div id="mech2rend3"></div>
+	  <div id="mech2rend4"></div>
+	  <p></p>
+	  <p></p>
+	  <div class="body">During initial testing a number of batteries died very quickly. To debug the problem, I used an oscilloscope to observe the voltage at the battery terminals when accelerating the robot. A diode was then added to prevent back emf being transmitted to the battery.
+	  <div id="backemfbefore"></div>
+	  <div id="backemfafter"></div>
+	  <div class="body"><i>Voltage and back emf spike when accelerating before and after adding diode to PCB</i></div>
+	  <p></p>
+	  <div class="body">After observing the limited absolute positional accuracy that could be achieved using open- or closed-loop motor positional control when driving the robot in its ball, the team decided to implement a "coordinate control" system. In this mode the robot would infer its absolute cartesian coordinates using machine vision to identify arUco codes positioned around an arena. This current position would be compared with the desired position to which the robot would move.</div>
+	  <div id="arenadiagram"></div>
+	  <div id="controlmodes"></div>
+	  <div class="body"><i>Velocity, Position and Coordinate control modes, respectively</i></div>
+	  <p></p>
+	  <div class="body">The coordinate control mode would implement closed-loop real-world positional control, automatically correcting errors. The robot was programmed to communicate with a laptop terminal running a python GUI via WiFi, with the deployed control code written entirely in simulink</div>
+	  <div id="move2coord"></div>
+	  <div class="body">The required distance change was passed to a positional PI block (1), which was passed along with the required angular change to block (2), which modified the desired velocity for left and right DC motors. A conventional closed-loop velocity control system was then implemented in stage (3). In stage (4), depending on the signage of the PWM signal the PWM pins were switched to achieve directional control.</div>
+	  <div id="mech2gui"></div>
+	  <div class="body">The python GUI allowed the user to remotely interface with the robot. Although the coordinate mode control paremeters were not fully tuned, the final demonstration displayed the robot's position within the area on the python GUI.</div>
+	  <div id="robotannotation"></div>
+	  
+	</div>
+
+  
+
+</body>
+</html>

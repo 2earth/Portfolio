@@ -11,32 +11,44 @@
 
   <!-- Nav Bar -->
   <div class="nav">
-	<!-- Logo -->
-    <a href="./index.html">
-		<div class="logo"></div>
-	</a>
-	<!-- Spacer -->
-    <div class="spacer"></div>
-    <ul class="list">
-		<a href="./Projects.html"><li id="projects"></li></a>
-		<a href="./Skills.html"><li id="skills"></li></a>
-		<a href="./Me.html"><li id="me"></li></a>
-	</ul>
+	<div class="contentrow">
+		<!-- Logo -->
+		<a href="./index.html">
+			<div class="logo"></div>
+		</a>
+		<ul class="list">
+			<a href="./Projects.html"><li id="projects"></li></a>
+		</ul>
+	</div>
   </div>
   <div class="topspacer"></div>
   <!-- GBDP -->
   <div class="contentrow">
 	  <div class="subheading">Mechatronic Design Project</div>
+	  <div class="body"><i>Team of 2 | 3 weeks | 2017</i></div>
+	  <div class="contenticon" id="pen"><div class="contenticontext">Sketching</div></div>
+	  <div class="contenticon" id="Code"><div class="contenticontext">Programming</div></div>
+		<div class="contenticon" id="Arduino"><div class="contenticontext">Electronics</div></div>
+		<div class="contenticon" id="Presenting"><div class="contenticontext">Presenting</div></div>
+		<div class="contenticon" id="Prototyping"><div class="contenticontext">Prototyping</div></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticontextspacer"></div>
 	  <div class="body">The team was tasked to develop a mechatronic system in three weeks that would interface with an X-Y gantry to identify magnets and place a plastic cup on each.</div>
 	  <div id="gantry"></div>
-	  <div class="body">A mechanical design which could collect, store and place cups without modification was sketched.</div>
+	  <div class="body">A mechanical design which could collect, store and place cups without modification was sketched. Three worm gears would be rotated together to collect or drop cups, with the cup's lip interfacing with the gears' thread.</div>
 	  <div id="mechatronicssketch"></div>
-	  <div class="body">To locate magnets, the design scanned across the area and gathered data representing the magnetic field strength using a hall-effect sensor. This was processed and the magnets were located using MATLAB.</div>
+	  <div class="body">To locate magnets, the design scanned across the area and gathered data representing the magnetic field strength using a hall-effect sensor.</div>
+	  <div id="halldata"></div>
+	  <div class="body">This was processed and the magnets were located using MATLAB to filter the data. Once located, a simple route optimisation algorithm was used to order the path.</div>
 	  <div id="mechatronicsdata"></div>
 	  <div class="body">Each of the actuators and sensors were controlled by a bespoke shield for the Arduino Mega.</div>
 	  <div id="finalwiringdiagram"></div>
 	  <div class="body">The final design scanned the area using a hall-effect sensor, collecting cups using a DC motor closed-loop controlled by a continuous potentiometer. Vertical actuation was achieved using a stepper motor, with stalls being detected by a light-gate acting as a simple encoder.</div>
 	  <div id="mechatronicsfinaldesign"></div>
+	  <div class="body">Operation was controlled by MATLAB programs written into functions, to itemise each action.</div>
+	  <div id="mechatronicsflow"></div>
 	  
 	</div>
 

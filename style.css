@@ -2,6 +2,22 @@ body {
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	width: 100%;
+}
+
+.contact {
+	margin-left: 10px;
+	float: left;
+	width: 20%;
+}
+
+.skilltitle {
+	float: left;
+	margin-top: 40px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+	width: 500px;
 }
 
 a {
@@ -37,12 +53,22 @@ a:hover {
 	background-image: url("./Logo C.png");
 }
 
-  
+.logoselect {
+	float: left;
+	background-image: url("./Logo C.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+	height: 100px;
+	width: 131px;
+}
+ 
 .nav {
 	background-color: #f1f3f4;
 	height: 100px;
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
 }
 
 .spacer {
@@ -55,7 +81,7 @@ a:hover {
 	float: left;
 	background-color: #ffffff;
 	width: 100%;
-	height: 100px;
+	height: 50px;
 }
 	
 .content {
@@ -77,13 +103,70 @@ a:hover {
 	background-size: 50%;
 	background-position: center center;
 }
+.contenticon {
+	float: left;
+	background-color: #ffffff;
+	height: 75px;
+	width: 75px;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center center;
+	cursor: pointer;
+}
+.contenticonspacer {
+	height: 75px;
+	float: left;
+	width: 75px;
+}
+.contenticontext {
+	padding-top: 75px;
+	float: left;
+	text-align: center;
+	height: 0px;
+	width: 75px;
+	margin: 0;
+	opacity: 0;
+}
+.contenticontext:hover {
+	opacity: 1;
+}
+.contenticontextspacer {
+	height: 30px;
+	float: left;
+	width: 600px;
+}
 
 .contentrow {
 	margin: auto;
 	width: 600px;
+	height: auto;
 }
-
+#testing {
+	background-image: url("./Images/skills/Cad.png");
+	float: left;
+	background-color: #ffffff;
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center center; 
+}
 /* Projects */
+#TextileRecycling {
+	background-image: url("./Images/Projects/textilerecycling.png");
+}
+#DesignOptimisation {
+	background-image: url("./Images/Projects/design optimisation.png");
+}
+#Mechatronics2 {
+	background-image: url("./Images/Projects/mechatronics2.png");
+}
+#BatteryTesting {
+	background-image: url("./Images/Projects/batterytesting.png");
+}
+#CNCGantry {
+	background-image: url("./Images/Projects/cncgantry.png");
+}
 #GBDP {
 	background-image: url("./Images/Projects/GBDP.png");
 }
@@ -111,9 +194,41 @@ a:hover {
 #Natura {
 	background-image: url("./Images/Projects/Natura.png");
 }
+#spaceshuttletile {
+	background-image: url("./Images/Projects/spaceshuttletile.png");
+}
 
 /*Projects Before (to prevent flashing*/
-
+#TextileRecycling:before {
+	content: url("./Images/Projects/textilerecycling C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#DesignOptimisation:before {
+	content: url("./Images/Projects/design optimisation C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#Mechatronics2:before {
+	content: url("./Images/Projects/mechatronics2 C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#BatteryTesting:before {
+	content: url("./Images/Projects/batterytesting C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#CNCGantry:before {
+	content: url("./Images/Projects/cncgantry C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
 #GBDP:before {
 	content: url("./Images/Projects/GBDP C.png");
 	width: 0px;
@@ -168,53 +283,115 @@ a:hover {
 	height: 0px;
 	visibility: hidden;
 }
-
+#spaceshuttletile:before {
+	content: url("./Images/Projects/spaceshuttletile C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
 /*Projects Hover*/
 
+#TextileRecycling:hover {
+	background-image: url("./Images/Projects/textilerecycling C.png") !important;
+}
+#DesignOptimisation:hover {
+	background-image: url("./Images/Projects/design optimisation C.png") !important;
+}
+#Mechatronics2:hover {
+	background-image: url("./Images/Projects/mechatronics2 C.png") !important;
+}
+#BatteryTesting:hover {
+	background-image: url("./Images/Projects/batterytesting C.png") !important;
+}
+#CNCGantry:hover {
+	background-image: url("./Images/Projects/cncgantry C.png") !important;
+}
 #GBDP:hover {
-	background-image: url("./Images/Projects/GBDP C.png");
+	background-image: url("./Images/Projects/GBDP C.png") !important;
 }
 #LEGONXT:hover {
-	background-image: url("./Images/Projects/LEGO NXT C.png");
+	background-image: url("./Images/Projects/LEGO NXT C.png") !important;
 }
 #Mechatronics:hover {
-	background-image: url("./Images/Projects/Mechatronics C.png");
+	background-image: url("./Images/Projects/Mechatronics C.png") !important;
 }
 #Brakes:hover {
-	background-image: url("./Images/Projects/brakes C.png");
+	background-image: url("./Images/Projects/brakes C.png") !important;
 }
 #MGB:hover {
-	background-image: url("./Images/Projects/MGB C.png");
+	background-image: url("./Images/Projects/MGB C.png") !important;
 }
 #Seat:hover {
-	background-image: url("./Images/Projects/Innovative seat C.png");
+	background-image: url("./Images/Projects/Innovative seat C.png") !important;
 }
 #Blender:hover {
-	background-image: url("./Images/Projects/Blender C.png");
+	background-image: url("./Images/Projects/Blender C.png") !important;
 }
 #Designability:hover {
-	background-image: url("./Images/Projects/Designability C.png");
+	background-image: url("./Images/Projects/Designability C.png") !important;
 }
 #Natura:hover {
-	background-image: url("./Images/Projects/Natura C.png");
+	background-image: url("./Images/Projects/Natura C.png") !important;
+}
+#spaceshuttletile:hover {
+	background-image: url("./Images/Projects/spaceshuttletile C.png") !important;
 }
 
 /* Skills */
+#All {
+	background-image: url("./Images/Skills/all C.png");
+	background-size: 80%;
+}
+#Cad {
+	background-image: url("./Images/Skills/cad.png");
+	background-size: 80%;
+}
+#Analysis {
+	background-image: url("./Images/Skills/analysis.png");
+	background-size: 80%;
+}
+#Presenting {
+	background-image: url("./Images/Skills/presenting.png");
+	background-size: 80%;
+}
+#Code {
+	background-image: url("./Images/Skills/code.png");
+	background-size: 80%;
+}
+#Prototyping {
+	background-image: url("./Images/Skills/prototyping.png");
+	background-size: 80%;
+}
 #Arduino {
 	background-image: url("./Images/Skills/Arduino.png");
 	background-size: 80%;
 }
-
 #Matlab {
 	background-image: url("./Images/Skills/matlab.png");
+}
+
+#python {
+	background-image: url("./Images/Skills/python.png");
 }
 
 #Inventor {
 	background-image: url("./Images/Skills/inventor.png");
 }
 
+#Photoshop {
+	background-image: url("./Images/Skills/photoshop.png");
+}
+
 #Catia {
 	background-image: url("./Images/Skills/catia.png");
+}
+
+#Labview {
+	background-image: url("./Images/Skills/labview.png");
+}
+
+#Outlook {
+	background-image: url("./Images/Skills/outlook.png");
 }
 
 #Cpp {
@@ -286,8 +463,64 @@ a:hover {
 }
 
 /* Skills:before (to prevent flashing)*/
+#All:before {
+	content: url("./Images/Skills/All C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
 #Arduino:before {
 	content: url("./Images/Skills/Arduino C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
+#Cad:before {
+	content: url("./Images/Skills/cad C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
+#Presenting:before {
+	content: url("./Images/Skills/presenting C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
+#Prototyping:before {
+	content: url("./Images/Skills/prototyping C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
+#Analysis:before {
+	content: url("./Images/Skills/analysis C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
+#Code:before {
+	content: url("./Images/Skills/code C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+	float: left;
+}
+
+#Outlook:before {
+	content: url("./Images/Skills/outlook C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -295,6 +528,20 @@ a:hover {
 
 #Matlab:before {
 	content: url("./Images/Skills/matlab C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#python:before {
+	content: url("./Images/Skills/python C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#Labview:before {
+	content: url("./Images/Skills/labview C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -356,6 +603,13 @@ a:hover {
 	visibility: hidden;
 }
 
+#Photoshop:before {
+	content: url("./Images/Skills/photoshop C.png");
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
 #Excel:before {
 	content: url("./Images/Skills/excel C.png");
 	width: 0px;
@@ -399,16 +653,56 @@ a:hover {
 }
 
 /* Skills:hover */
+#All:hover {
+	background-image: url("./Images/Skills/All C.png") !important;
+}
+
 #Arduino:hover {
-	background-image: url("./Images/Skills/Arduino C.png");
+	background-image: url("./Images/Skills/Arduino C.png") !important;
+}
+
+#Code:hover {
+	background-image: url("./Images/Skills/code C.png") !important;
+}
+
+#Analysis:hover {
+	background-image: url("./Images/Skills/analysis C.png") !important;
+}
+
+#Presenting:hover {
+	background-image: url("./Images/Skills/presenting C.png") !important;
+}
+
+#Cad:hover {
+	background-image: url("./Images/Skills/cad C.png") !important;
+}
+
+#Prototyping:hover {
+	background-image: url("./Images/Skills/prototyping C.png") !important;
 }
 
 #Matlab:hover {
 	background-image: url("./Images/Skills/matlab C.png");
 }
 
+#Photoshop:hover {
+	background-image: url("./Images/Skills/photoshop C.png");
+}
+
+#Outlook:hover {
+	background-image: url("./Images/Skills/outlook C.png");
+}
+
+#python:hover {
+	background-image: url("./Images/Skills/python C.png");
+}
+
 #Inventor:hover {
 	background-image: url("./Images/Skills/inventor C.png");
+}
+
+#Labview:hover {
+	background-image: url("./Images/Skills/labview C.png");
 }
 
 #Catia:hover {
@@ -465,8 +759,8 @@ a:hover {
 
 /* Me */
 #pen {
-	background-image: url("./Images/Me/Pen.jpg");
-	transform: rotate(-90deg);
+	background-image: url("./Images/Me/Pen.png");
+	background-size: auto 50%;
 }
 #bath {
 	background-image: url("./Images/Me/Bath.png");
@@ -490,6 +784,7 @@ a:hover {
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
+	float: left;
 }
 #bath:before {
 	content: url("./Images/Me/Bath C.png");
@@ -524,12 +819,8 @@ a:hover {
 /* Me:hover */
 
 #pen:hover {
-	background-image: url("./Images/Me/Pen C.png");
-	transform: rotate(0deg);
-}
-
-#pen:hover {
-	background-image: url("./Images/Me/Pen C.png");
+	background-image: url("./Images/me/Pen C.png") !important;
+	background-size: auto 50%;
 }
 	
 #bath:hover {
@@ -572,14 +863,17 @@ a:hover {
 
 #projects {
 	background-image: url("./Images/Nav bar/Projects.png");
+	float: right;
 }
 
 #skills {
 	background-image: url("./Images/Nav bar/Skills.png");
+	float: right;
 }
 
 #me {
 	background-image: url("./Images/Nav bar/Me.png");
+	float: right;
 }
 
 /* Nav before to prevent flashing */
@@ -602,6 +896,8 @@ a:hover {
 	height: 0px;
 	visibility: hidden;
 }
+/* Hover */
+
 #projects:hover {
 	background-image: url("./Images/Nav bar/Projects C.png");
 }
@@ -614,11 +910,27 @@ a:hover {
 	background-image: url("./Images/Nav bar/Me C.png");
 }
 
+/* Selected */
+
+#projectsselect {
+	background-image: url("./Images/Nav bar/Projects C.png");
+	float: right;
+}
+
+#skillsselect {
+	background-image: url("./Images/Nav bar/Skills C.png");
+	float: right;
+}
+
+#meselect {
+	background-image: url("./Images/Nav bar/Me C.png");
+	float: right;
+}
+
 .subheading {
 	color: #000;
 	font-size: 20px;
 	font-weight: bold;
-	padding-bottom: 20px;
 }
 
 .topnav {
@@ -676,11 +988,11 @@ a:hover {
 	background-size: contain;
 	background-position: center center;
 }
-#conceptdevelopMent {
-	background-image: url("./Images/GBDP/Concept DevelopMent.png");
+#conceptdevelopment {
+	background-image: url("./Images/GBDP/Concept Development.png");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 450px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -742,7 +1054,7 @@ a:hover {
 	background-image: url("./Images/Mechatronics/mechatronics sketch.png");
 	float: left;
 	background-color: #ffffff;
-	height: 400px;
+	height: 500px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -865,7 +1177,7 @@ a:hover {
 	margin-bottom: 50px;
 }
 #timingplan {
-	background-image: url("./Images/MGB/timing plan.png");
+	background-image: url("./Images/MGB/timing plan.PNG");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -1151,7 +1463,7 @@ a:hover {
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
-	width: 600px;
+	width: 300px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -1163,11 +1475,12 @@ a:hover {
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
-	width: 600px;
+	width: 300px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 #USDbrainstorm {
@@ -1237,7 +1550,7 @@ a:hover {
 	background-image: url("./Images/USD/final prototype.jpg");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 400px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1252,13 +1565,15 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #GBDP2robots {
 	background-image: url("./Images/CAD/2 robots POSTER.png");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 400px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: 130%;
@@ -1266,10 +1581,10 @@ a:hover {
 }
 
 #grippersassembly {
-	background-image: url("./Images/CAD/grippersassembly.png");
+	background-image: url("./Images/GBDP/grippersassembly.png");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 400px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: 120%;
@@ -1277,10 +1592,10 @@ a:hover {
 }
 
 #launcherexploded {
-	background-image: url("./Images/CAD/launcherexploded.png");
+	background-image: url("./Images/GBDP/launcherexploded.png");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 400px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1288,10 +1603,10 @@ a:hover {
 }
 
 #robotarmexploded {
-	background-image: url("./Images/CAD/robotarmexploded.png");
+	background-image: url("./Images/GBDP/robotarmexploded.png");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 400px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: 150%;
@@ -1394,10 +1709,10 @@ a:hover {
 }
 
 #UCDcad {
-	background-image: url("./Images/CAD/UCDcad.png");
+	background-image: url("./Images/USD/UCDcad.png");
 	float: left;
 	background-color: #ffffff;
-	height: 500px;
+	height: 300px;
 	width: 600px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1405,7 +1720,7 @@ a:hover {
 }
 
 #mechatronicsflow {
-	background-image: url("./Images/Code/mechatronicsflow.png");
+	background-image: url("./Images/Mechatronics/mechatronicsflow.png");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -1415,7 +1730,7 @@ a:hover {
 	background-position: center center;
 }
 #halldata {
-	background-image: url("./Images/Code/halldata.png");
+	background-image: url("./Images/Mechatronics/halldata.png");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1435,7 +1750,7 @@ a:hover {
 	background-position: center center;
 }
 #tileprocess {
-	background-image: url("./Images/Code/tileprocess.png");
+	background-image: url("./Images/spaceshuttletile/tileprocess.png");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1445,7 +1760,7 @@ a:hover {
 	background-position: center center;
 }
 #tileGUI {
-	background-image: url("./Images/Code/tileGUI.png");
+	background-image: url("./Images/spaceshuttletile/tileGUI.png");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1475,7 +1790,7 @@ a:hover {
 	background-position: center center;
 }
 #jdfweb {
-	background-image: url("./Images/Code/jdfweb.png");
+	background-image: url("./Images/GBDP/jdfweb.png");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1647,7 +1962,7 @@ a:hover {
 	background-position: center center;
 }
 #teamphoto {
-	background-image: url("./Images/MGB/team photo.jpg");
+	background-image: url("./Images/MGB/team photo.JPG");
 	float: left;
 	background-color: #ffffff;
 	height: 500px;
@@ -1665,6 +1980,642 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
+}
+#programflowchart {
+	background-image: url("./Images/batterytesting/programflowchart.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#batterytestinggui {
+	background-image: url("./Images/batterytesting/batterytestinggui.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#batterytest {
+	background-image: url("./Images/batterytesting/batterytest.png");
+	float: left;
+	background-color: #ffffff;
+	height: 500px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#circuitillustration {
+	background-image: url("./Images/batterytesting/circuitillustration.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#alternativeoptions {
+	background-image: url("./Images/automatedpinbed/alternativeoptions.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#pinbedstoryboard {
+	background-image: url("./Images/automatedpinbed/pinbedstoryboard.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#layoutsketch {
+	background-image: url("./Images/automatedpinbed/layoutsketch.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#xaxisdev {
+	background-image: url("./Images/automatedpinbed/xaxisdev.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#zaxisdev {
+	background-image: url("./Images/automatedpinbed/zaxisdev.png");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#cadannotated {
+	background-image: url("./Images/automatedpinbed/cadannotated.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#gantryphoto {
+	background-image: url("./Images/automatedpinbed/gantryphoto.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#wiringdiagram {
+	background-image: url("./Images/automatedpinbed/wiringdiagram.png");
+	float: left;
+	background-color: #ffffff;
+	height: 550px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#sandstorm {
+	background-image: url("./Images/mechatronics2/conceptdrawing.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mechatronics2brainstorm {
+	background-image: url("./Images/mechatronics2/mechatronics2brainstorm.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#backemfbefore {
+	background-image: url("./Images/mechatronics2/backemfbefore.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#backemfafter {
+	background-image: url("./Images/mechatronics2/backemfafter.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mechatronics2initialsketch {
+	background-image: url("./Images/mechatronics2/mechatronics2initialsketch.png");
+	float: left;
+	background-color: #ffffff;
+	height: 550px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mech2rend1 {
+	background-image: url("./Images/mechatronics2/HAMSTER_Assembly_2.png");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mech2rend2 {
+	background-image: url("./Images/mechatronics2/HAMSTER_Front.png");
+	float: left;
+	background-color: #ffffff;
+	height: 150px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mech2rend3 {
+	background-image: url("./Images/mechatronics2/HAMSTER_Left.png");
+	float: left;
+	background-color: #ffffff;
+	height: 150px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mech2rend4 {
+	background-image: url("./Images/mechatronics2/HAMSTER_Top.png");
+	float: left;
+	background-color: #ffffff;
+	height: 150px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#arenadiagram {
+	background-image: url("./Images/mechatronics2/arena diagram.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#controlmodes {
+	background-image: url("./Images/mechatronics2/controlmodes.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#move2coord {
+	background-image: url("./Images/mechatronics2/move2coord.png");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#mech2gui {
+	background-image: url("./Images/mechatronics2/gui.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#robotannotation {
+	background-image: url("./Images/mechatronics2/robotannotation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#WsRs {
+	background-image: url("./Images/Design Optimisation/Ws-Rs.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#BaRs {
+	background-image: url("./Images/Design Optimisation/Ba-Rs.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptprogram {
+	background-image: url("./Images/Design Optimisation/desoptprogram.png");
+	float: left;
+	background-color: #ffffff;
+	height: 450px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptexperiment {
+	background-image: url("./Images/Design Optimisation/desoptexperiment.png");
+	float: left;
+	background-color: #ffffff;
+	height: 350px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptplan {
+	background-image: url("./Images/Design Optimisation/desoptplan.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#desoptcad {
+	background-image: url("./Images/Design Optimisation/desoptcad.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptsim {
+	background-image: url("./Images/Design Optimisation/desoptsim.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptlasercut {
+	background-image: url("./Images/Design Optimisation/desoptlasercut.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptangle {
+	background-image: url("./Images/Design Optimisation/desoptangle.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptblade {
+	background-image: url("./Images/Design Optimisation/desoptblade.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptprototype {
+	background-image: url("./Images/Design Optimisation/desoptprototype.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptlock {
+	background-image: url("./Images/Design Optimisation/desoptlock.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desopthub {
+	background-image: url("./Images/Design Optimisation/desopthub.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptpile {
+	background-image: url("./Images/Design Optimisation/desoptpile.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#desoptrotation {
+	background-image: url("./Images/Design Optimisation/desoptrotation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#trendoflife {
+	background-image: url("./Images/Textile Recycling/end of life.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trprimaryenergy {
+	background-image: url("./Images/Textile Recycling/tr primary energy.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trapplications {
+	background-image: url("./Images/Textile Recycling/tr applications.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+#trbrainstormapplications {
+	background-image: url("./Images/Textile Recycling/tr brainstorm applications.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#trsocialmedia {
+	background-image: url("./Images/Textile Recycling/Instagram Study.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#trbrother {
+	background-image: url("./Images/Textile Recycling/brother.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+}
+#trvetron {
+	background-image: url("./Images/Textile Recycling/vetron.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 50px;
+}
+#trtensilephoto {
+	background-image: url("./Images/Textile Recycling/tr tensile test photo.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 150px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trtensileexperiment {
+	background-image: url("./Images/Textile Recycling/tensile schematic.png");
+	float: left;
+	background-color: #ffffff;
+	height: 150px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trtensilegraph1 {
+	background-image: url("./Images/Textile Recycling/tr tensile test.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trtensilegraph2 {
+	background-image: url("./Images/Textile Recycling/tr tensile test 2.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trstitch {
+	background-image: url("./Images/Textile Recycling/stitch type.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trcell {
+	background-image: url("./Images/Textile Recycling/cellstrategy.png");
+	float: left;
+	background-color: #ffffff;
+	height: 200px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trearlyconcepts {
+	background-image: url("./Images/Textile Recycling/early concepts.png");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trsuction {
+	background-image: url("./Images/Textile Recycling/suction prototype.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trmachinevision {
+	background-image: url("./Images/Textile Recycling/machinevision.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trmanipulation {
+	background-image: url("./Images/Textile Recycling/manipulation.png");
+	float: left;
+	background-color: #ffffff;
+	height: 350px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trdevstages {
+	background-image: url("./Images/Textile Recycling/development stages.png");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#trdevelopment {
+	background-image: url("./Images/Textile Recycling/development.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 .slideshowbox {
 	height: 20px;

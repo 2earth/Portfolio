@@ -5,27 +5,322 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
   <link href="./style.css" type="text/css" rel="stylesheet">
   <meta charset="UTF-8"> 
+  <script type="text/javascript">
+  var lastclick = "All projects";
+	function applyfilter(filter){
+		lastclick = filter + " projects";
+		switch(filter) {
+			case "CAD":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation C.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry C.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP C.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes C.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB C.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat C.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability C.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'CAD projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad C.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/Me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "Sketching":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2 C.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics C.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry C.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP C.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes C.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB C.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat C.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability C.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender C.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura C.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'Sketching projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen C.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "Electronics":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2 C.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics C.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting C.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry C.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender C.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'Electronics projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino C.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "Programming":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2 C.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics C.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting C.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation C.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry C.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender C.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile C.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'Programming projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code C.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "Analysis":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2 C.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics C.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting C.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation C.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry C.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP C.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes C.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB C.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat C.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability C.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender C.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura C.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile C.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'Analysis projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis C.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "Prototyping":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics C.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting C.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation C.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry C.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP C.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes C.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB C.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat C.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability C.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender C.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura C.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'Prototyping projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping C.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "Presentation":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling C.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2 C.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics C.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation C.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP C.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes C.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB C.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability C.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender C.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'Presentation projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting C.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/all.png")';
+				break;
+			case "All":
+				document.getElementById('TextileRecycling').style.backgroundImage = 'url("./Images/Projects/textilerecycling.png")';
+				document.getElementById('Mechatronics2').style.backgroundImage = 'url("./Images/Projects/mechatronics2.png")';
+				document.getElementById('Mechatronics').style.backgroundImage = 'url("./Images/Projects/mechatronics.png")';
+				document.getElementById('BatteryTesting').style.backgroundImage = 'url("./Images/Projects/batterytesting.png")';
+				document.getElementById('DesignOptimisation').style.backgroundImage = 'url("./Images/Projects/design optimisation.png")';
+				document.getElementById('CNCGantry').style.backgroundImage = 'url("./Images/Projects/cncgantry.png")';
+				document.getElementById('GBDP').style.backgroundImage = 'url("./Images/Projects/GBDP.png")';
+				document.getElementById('Brakes').style.backgroundImage = 'url("./Images/Projects/brakes.png")';
+				document.getElementById('MGB').style.backgroundImage = 'url("./Images/Projects/MGB.png")';
+				document.getElementById('Seat').style.backgroundImage = 'url("./Images/Projects/Innovative seat.png")';
+				document.getElementById('Designability').style.backgroundImage = 'url("./Images/Projects/Designability.png")';
+				document.getElementById('Blender').style.backgroundImage = 'url("./Images/Projects/Blender.png")';
+				document.getElementById('Natura').style.backgroundImage = 'url("./Images/Projects/Natura.png")';
+				document.getElementById('LEGONXT').style.backgroundImage = 'url("./Images/Projects/LEGO NXT.png")';
+				document.getElementById('spaceshuttletile').style.backgroundImage = 'url("./Images/Projects/spaceshuttletile.png")';
+				
+				document.getElementById('filtertext').innerHTML = 'All projects';
+				
+				document.getElementById('Prototyping').style.backgroundImage = 'url("./Images/skills/prototyping.png")';
+				document.getElementById('Cad').style.backgroundImage = 'url("./Images/skills/cad.png")';
+				document.getElementById('Arduino').style.backgroundImage = 'url("./Images/skills/Arduino.png")';
+				document.getElementById('Code').style.backgroundImage = 'url("./Images/skills/code.png")';
+				document.getElementById('Analysis').style.backgroundImage = 'url("./Images/skills/analysis.png")';
+				document.getElementById('Presenting').style.backgroundImage = 'url("./Images/skills/presenting.png")';
+				document.getElementById('pen').style.backgroundImage = 'url("./Images/me/Pen.png")';
+				document.getElementById('All').style.backgroundImage = 'url("./Images/skills/All C.png")';
+				break;
+			default:
+				break;
+			}
+	}
+	
+	function hovertext(filter){
+		switch(filter) {
+			case "CAD":
+				document.getElementById('filtertext').innerHTML = 'CAD projects';
+				break;
+			case "All":
+				document.getElementById('filtertext').innerHTML = 'All projects';
+				break;
+			case "Prototyping":
+				document.getElementById('filtertext').innerHTML = 'Prototyping projects';
+				break;
+			case "Presentation":
+				document.getElementById('filtertext').innerHTML = 'Presentation projects';
+				break;
+			case "Analysis":
+				document.getElementById('filtertext').innerHTML = 'Analysis projects';
+				break;
+			case "Electronics":
+				document.getElementById('filtertext').innerHTML = 'Electronics projects';
+				break;
+			case "Sketching":
+				document.getElementById('filtertext').innerHTML = 'Sketching projects';
+				break;
+			case "Programming":
+				document.getElementById('filtertext').innerHTML = 'Programming projects';
+				break;
+			case "Reset":
+				document.getElementById('filtertext').innerHTML = lastclick;
+				break;
+			default:
+				document.getElementById('filtertext').innerHTML = 'All projects';
+				break;
+			}
+		}
+  </script>
 </head>
 <title>TR | Projects</title>
 <body>
 
   <!-- Nav Bar -->
   <div class="nav">
-	<!-- Logo -->
-    <a href="./index.html">
-		<div class="logo"></div>
-	</a>
-	<!-- Spacer -->
-    <div class="spacer"></div>
-    <ul class="list">
-		<a href="./Projects.html"><li id="projects"></li></a>
-		<a href="./Skills.html"><li id="skills"></li></a>
-		<a href="./Me.html"><li id="me"></li></a>
-	</ul>
+	<div class="contentrow">
+		<!-- Logo -->
+		<a href="./index.html">
+			<div class="logo"></div>
+		</a>
+		<ul class="list">
+			<a href="./Projects.html"><li id="projectsselect"></li></a>
+		</ul>
+	</div>
   </div>
   <div class="topspacer"></div>
   <!-- Projects -->
   <div class="contentrow">
+	<div class="body" id="filtertext">
+		<i>All projects</i>
+	</div>
+	<div class="contenticon" id="All" onclick="applyfilter('All')" onmouseover="hovertext('All')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="Prototyping" onclick="applyfilter('Prototyping')" onmouseover="hovertext('Prototyping')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="Cad" onclick="applyfilter('CAD')" onmouseover="hovertext('CAD')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="Arduino" onclick="applyfilter('Electronics')" onmouseover="hovertext('Electronics')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="Code" onclick="applyfilter('Programming')" onmouseover="hovertext('Programming')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="Analysis" onclick="applyfilter('Analysis')" onmouseover="hovertext('Analysis')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="Presenting" onclick="applyfilter('Presentation')" onmouseover="hovertext('Presentation')" onmouseout="hovertext('Reset')"></div>
+	<div class="contenticon" id="pen" onclick="applyfilter('Sketching')" onmouseover="hovertext('Sketching')" onmouseout="hovertext('Reset')"></div>
+  </div>
+  <div class="contentrow">
+	  <a href="./textilerecycling.html">
+		<div class="content" id="TextileRecycling"></div> 
+		</a>
+	  <a href="./designoptimisation.html">
+		<div class="content" id="DesignOptimisation"></div> 
+		</a>
+	  <a href="./mechatronics2.html">
+		<div class="content" id="Mechatronics2"></div> 
+		</a>
+	  <a href="./CNCgantry.html">
+		<div class="content" id="CNCGantry"></div> 
+		</a>
+	  <a href="./batterytesting.html">
+		<div class="content" id="BatteryTesting"></div> 
+		</a>
 	  <a href="./GBDP.html">
 		<div class="content" id="GBDP"></div> 
 		</a>
@@ -41,19 +336,20 @@
 	  <a href="./MGB.html">
 		<div class="content" id="MGB"></div> 
 		</a>
-	</div>
-  <div class="contentrow">
 	  <a href="./innovativeseat.html">
 		<div class="content" id="Seat"></div> 
 		</a>
 	  <a href="./reverseengineering.html">
-	  <div class="content" id="Blender"></div> 
+	    <div class="content" id="Blender"></div> 
 	  </a>
 	  <a href="./USD.html">
 	    <div class="content" id="Designability"></div>
 		</a>
 	  <a href="./PDD.html">
 	    <div class="content" id="Natura"></div>
+	  </a>
+	  <a href="./spaceshuttletile.html">
+		<div class="content" id="spaceshuttletile"></div> 
 	  </a>
 	</div>
 </body>

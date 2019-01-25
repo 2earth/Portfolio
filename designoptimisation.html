@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8"> 
+</head>
+
+<title>TR | Design Optimisation</title>
+<body>
+
+  <!-- Nav Bar -->
+  <div class="nav">
+	<div class="contentrow">
+		<!-- Logo -->
+		<a href="./index.html">
+			<div class="logo"></div>
+		</a>
+		<ul class="list">
+			<a href="./Projects.html"><li id="projects"></li></a>
+		</ul>
+	</div>
+  </div>
+  <div class="topspacer"></div>
+  <!-- GBDP -->
+  <div class="contentrow">
+	  <div class="subheading">Design Optimisation</div>
+	  <div class="body"><i>Team of 2 | 3 weeks | 2018</i></div>
+	  	  <div class="contenticon" id="Code"><div class="contenticontext">Programming</div></div>
+		<div class="contenticon" id="Arduino"><div class="contenticontext">Electronics</div></div>
+		<div class="contenticon" id="Analysis"><div class="contenticontext">Analysis</div></div>
+		<div class="contenticon" id="Prototyping"><div class="contenticontext">Prototyping</div></div>
+		<div class="contenticon" id="Cad"><div class="contenticontext">CAD</div></div>
+		<div class="contenticon" id="Presentation"><div class="contenticontext">Presentation</div></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticonspacer"></div>
+		<div class="contenticontextspacer"></div>
+	  <div class="body">The module aimed to teach aspects of design optimisation, the methodical improvement of desired parameters subject to constraints and resource limitations. To illustrate these principles the scenario of wind turbine design was used, incorperating aspects of aerodynamic theory.</div>
+	  <div id="desoptexperiment"></div>
+	  <div class="body">First, a full-factorial experiment was conducted using design of experiments, followed by analysis of variance (ANOVA) to determine which factors had a significant impact on the output.</div>
+	  <div id="desoptprogram"></div>
+	  <div class="body">In the second part of the project, a black-box MATLAB program modelled the behavior of a wind turbine and I wrote code to conduct sensitivity analysis on the results, to identify trends in behaviour. This proceeded by creating a sobol-set matrix to apply a monte-carlo approach, varying the input of each factor independently and together to analyse the change in output variance with respect to the input variance. </div>
+	  <div id="BaRs"></div>
+	  <div id="WsRs"></div>
+	  <div class="body">Data from an open-source wind farm in France was then analysed to understand and explain the behaviour of wind turbines. Above left, the blade pitch is seen to be varied only within a small window of rotor speeds. This aims to maintain the rotor speed at the rated value in the broadest possible range of wind speeds. Above right, the transition from low speed varied pitch to the main operating region is seen. The rotor is not allowed to exceed safe speeds.</div>
+	  <div id="desoptplan"></div>
+	  <div class="body">Using the techniques gained, my colleague and I used the rest of the project time to design, build and test a small rotor prototype. We decided to inform the design using simulation, before later testing to identify discrepancies between model and simulation.</div>
+	  <div id="desoptsim"></div>
+	  <div class="body">The simulation was based on the proven blade element momentum theory process. Equations derived from aerodynamic theory are solved iteratively until convergent on a relative wind angle. A brute force approach was then used to find the optimal blade twist and pitch angles for power output. This data would then be used to influence the turbine blade profiles.</div>
+		<div id="desoptcad"></div>
+		<div id="body">A design was chosen which could be prototyped quickly and inexpensively using available techniques and resources. Most significantly the modularity of blade sections would allow further experimentation to ensure a good correlation between simulation and actual behaviour.</div>
+		<div id="desoptlasercut"></div>
+		<div id="desoptpile"></div>
+		<div id="desoptangle"></div>
+		<div id="desopthub"></div>
+		<div id="desoptlock"></div>
+		<div id="desoptblade"></div>
+		<div class="body">Blade profiles (S8037) were lasercut and assembled, then skinned using paper. Each blade profile (5 per blade) could be attached to the blade's structural member at a different angle as required. Profiles were locked onto the blade using a quick-release mechanism, and attached to the hub with a simple slot.</div>
+		<div id="desoptprototype"></div>
+		<div id="desoptrotation"></div>
+		<div class="body">During the short testing window, 4 different profiles were tested with progressively stepper blade angles. This resulted in the rotor having a higher cut-in speed, but with a higher cut-out speed. The fastest observed speed was 216.3 rpm.</div>
+		<p></p>
+		<div class="body">The next steps in the project would have been to carry out an analysis between the simulated and experimental results to identify sources of first and second order error. Using the updated simulation, a smooth and lightweight final protototype could then be produced, with optimised pitch and twist angles.</div>
+	</div>
+
+  
+
+</body>
+</html>
