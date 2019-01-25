@@ -759,7 +759,7 @@ a:hover {
 
 /* Me */
 #pen {
-	background-image: url("./Images/Me/Pen.png");
+	background-image: url("./Images/Skills/Pen.png");
 	background-size: auto 50%;
 }
 #bath {
@@ -780,7 +780,7 @@ a:hover {
 
 /* Me:before (to prevent flashing)*/
 #pen:before {
-	content: url("./Images/Me/Pen C.png");
+	content: url("./Images/Skills/Pen C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
@@ -819,7 +819,7 @@ a:hover {
 /* Me:hover */
 
 #pen:hover {
-	background-image: url("./Images/me/Pen C.png") !important;
+	background-image: url("./Images/Skills/Pen C.png") !important;
 	background-size: auto 50%;
 }
 	
