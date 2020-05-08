@@ -2,13 +2,27 @@ body {
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+html {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin: 0px;
 	width: 100%;
 }
 
 .contact {
 	margin-left: 10px;
 	float: left;
-	width: 20%;
+	width: 330px;
+	border-right: 4px solid gray
 }
 
 .skilltitle {
@@ -23,6 +37,7 @@ body {
 a {
 	text-decoration: none;
 	color: #5c5c5c;
+	/*display:block;*/
 }
 
 a:visited {
@@ -62,10 +77,17 @@ a:hover {
 	height: 100px;
 	width: 131px;
 }
+
+.textlogo {
+	float: left;
+	height: 100px;
+	width: 131px;
+	line-height: 100px;
+}
  
 .nav {
 	background-color: #f1f3f4;
-	height: 100px;
+	height: 60px;
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -846,8 +868,8 @@ a:hover {
 }
 
 .nav ul li {
-	width: 150px;
-	height: 100px;
+	width: 100px;
+	height: 60px;
 	display: inline-block; /* stack horizontally */
 	border-style: solid;
 	border-width: 0 0px; /* no border */
@@ -862,52 +884,112 @@ a:hover {
 }
 
 #projects {
-	background-image: url("./Images/Nav bar/Projects.png");
-	float: right;
-}
+	/*background-image: url("./Images/Nav bar/Projects.png");*/
+	background-color: #f1f3f4;
+	float: left;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
 
-#skills {
-	background-image: url("./Images/Nav bar/Skills.png");
+}
+#email {
+	/*background-image: url("./Images/Nav bar/Projects.png");*/
+	background-color: #f1f3f4;
 	float: right;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+
 }
 
 #me {
-	background-image: url("./Images/Nav bar/Me.png");
-	float: right;
+	/*background-image: url("./Images/Nav bar/Projects.png");*/
+	background-color: #f1f3f4;
+	float: left;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+
+}
+
+#tr {
+	/*background-image: url("./Images/Nav bar/Projects.png");*/
+	background-color: #d9dfe2;
+	float: left;
+	width: 140px;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+	padding-left: 30px;
+	font-size: 140%;
+
+}
+
+#design {
+	/*background-image: url("./Images/Nav bar/Projects.png");*/
+	background-color: #d9dfe2;
+	float: left;
+	width: 170px;
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+	font-size: 140%;
+
 }
 
 /* Nav before to prevent flashing */
 
-#projects::before {
+/*#projects::before {
 	content: url("./Images/Nav bar/Projects C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
-}
-#skills::before {
+}*/
+/*#skills::before {
 	content: url("./Images/Nav bar/Skills C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
-}
-#me::before {
+}*/
+/*#me::before {
 	content: url("./Images/Nav bar/Me C.png");
 	width: 0px;
 	height: 0px;
 	visibility: hidden;
-}
+}*/
 /* Hover */
 
 #projects:hover {
-	background-image: url("./Images/Nav bar/Projects C.png");
+	/*background-image: url("./Images/Nav bar/Projects C.png");*/
+	background-color: #ccd2d5;
 }
 
-#skills:hover {
-	background-image: url("./Images/Nav bar/Skills C.png");
+#email:hover {
+	/*background-image: url("./Images/Nav bar/Skills C.png");*/
+	background-color: #ccd2d5;
 }
 
 #me:hover {
-	background-image: url("./Images/Nav bar/Me C.png");
+	/*background-image: url("./Images/Nav bar/Me C.png");*/
+	background-color: #ccd2d5;
 }
 
 /* Selected */
@@ -2397,8 +2479,8 @@ a:hover {
 	background-image: url("./Images/Textile Recycling/end of life.png");
 	float: left;
 	background-color: #ffffff;
-	height: 400px;
-	width: 600px;
+	height: 200px;
+	width: 300px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -2409,8 +2491,8 @@ a:hover {
 	background-image: url("./Images/Textile Recycling/tr primary energy.png");
 	float: left;
 	background-color: #ffffff;
-	height: 400px;
-	width: 600px;
+	height: 200px;
+	width: 300px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -2558,7 +2640,7 @@ a:hover {
 	margin-bottom: 30px;
 }
 #trsuction {
-	background-image: url("./Images/Textile Recycling/suction prototype.png");
+	background-image: url("./Images/Textile Recycling/suction prototype.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -2570,7 +2652,7 @@ a:hover {
 	margin-bottom: 30px;
 }
 #trmachinevision {
-	background-image: url("./Images/Textile Recycling/machinevision.png");
+	background-image: url("./Images/Textile Recycling/vision_system_gui.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
@@ -2607,6 +2689,80 @@ a:hover {
 }
 #trdevelopment {
 	background-image: url("./Images/Textile Recycling/development.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#complete_patchwork {
+	background-image: url("./Images/Textile Recycling/complete_patchwork.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 600px;
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#elecdevtextile {
+	background-image: url("./Images/Textile Recycling/electronics_manufacture.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#integration {
+	background-image: url("./Images/Textile Recycling/mech_schematic.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#full_system {
+	background-image: url("./Images/Textile Recycling/full_system.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 400px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#calculations_textile {
+	background-image: url("./Images/Textile Recycling/Calculations.jpg");
+	float: left;
+	background-color: #ffffff;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#Finaldesign {
+	background-image: url("./Images/Textile Recycling/Finaldesign.jpg");
 	float: left;
 	background-color: #ffffff;
 	height: 400px;
